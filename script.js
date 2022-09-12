@@ -33,4 +33,4 @@ const loop = setInterval(() => {
 
 },10);
 
-document.addEventListener('Touch', 'Keydown', jump);
+document.addEventListener('keydown', jump);
