@@ -13,6 +13,7 @@ const loop = setInterval(() => {
 
     console.log('loop');
 
+    
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px','');
 
@@ -35,3 +36,4 @@ const loop = setInterval(() => {
 
 
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump);
